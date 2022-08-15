@@ -1,0 +1,68 @@
+/* univeversel selector */
+*{
+    margin:0 ;
+    padding: 0;
+    border: 0;
+}
+
+/* Element/Name selector */
+body{ background-color: aqua;}
+
+/* id selecotor */
+#admin-box{
+background-color:yellow;
+color: rgb(205, 243, 255);
+text-align: center;
+width: 50%
+;
+margin:auto;
+padding: 20px;
+border-radius: 20px;
+}
+/* class selection */
+#admim-img{height: 200px ;
+
+}
+
+/*Dcendent selector */
+h1{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+
+/*grouping selector */
+input{ background-color: azure;
+color: black;
+border: 1px solid black;
+border-radius: 2px;}
+label{display: block;
+    width: 99%;
+    margin: auto;
+    padding: 10px;
+
+}
+label{ font-size: 20px;
+}
+
+p{ 
+    font-size: 15spx;
+}
+p{ text-decoration: none;
+color:rgb(205, 243, 255); ;
+text-transform: capitalize;
+}
+input:focus{ background-color:rgb(210, 227, 233) ;}
+input::placeholder{ color:black ;}
+
+
+input[type="submit"]{background-color:rgb(210, 227, 233);border: 12px solid rgb(210, 227, 233); margin: 20px auto;
+    width: 25%;
+    border-radius: 5px;
+transition: ease-in-out 0.8s;
+
+}
+input [type="submit"]:hover{
+    background-color: transparent;
+    
+    
+}
